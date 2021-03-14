@@ -7,16 +7,9 @@ The official implementation is [here](https://github.com/junyanz/pytorch-CycleGA
 ## file structure
 ```
 .
-├── data                // the datasets
-│   └── horse2zebra     // the dataset(must has 4 subfolders(testA, testB, trainA, trainB))  
-│       ├── testA       
-│       ├── testB
-│       ├── trainA
-│       └── trainB
 ├── dataIO              // the code of dataset I/O module 
 ├── model               // the code of definition of CycleGAN model
-└── weights             // the pretrained weight file(without identity loss)
-└── test.py             // the code for testing
+├── test.py             // the code for testing
 └── train.py            // the code for training
 ```
 ## how to train
