@@ -18,6 +18,7 @@ The official implementation is [here](https://github.com/junyanz/pytorch-CycleGA
 │   ├── basic_blocks.py
 │   ├── networks.py
 │   └── utils.py
+├── weights             // the pretrained weight files
 ├── test.py             // the code for testing
 └── train.py            // the code for training
 ```
