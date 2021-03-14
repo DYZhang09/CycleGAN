@@ -8,7 +8,16 @@ The official implementation is [here](https://github.com/junyanz/pytorch-CycleGA
 ```
 .
 ├── dataIO              // the code of dataset I/O module 
+│   ├── __init__.py
+│   ├── datasets.py
+│   ├── preprocess.py
+│   └── utils.py
 ├── model               // the code of definition of CycleGAN model
+│   ├── CycleGAN.py
+│   ├── __init__.py
+│   ├── basic_blocks.py
+│   ├── networks.py
+│   └── utils.py
 ├── test.py             // the code for testing
 └── train.py            // the code for training
 ```
